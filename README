@@ -8,9 +8,11 @@ Implements:
 - CustomMemoizator
 - CopyMemoizator
 
+All 3 classes can be used as decorators as shown in the examples.
+
 TODOs:
 
-- [ ] Create decorators for memoization
+- [X] Create decorators for memoization
 - [ ] Typing
 - [ ] Documentation
 - [ ] Testing
