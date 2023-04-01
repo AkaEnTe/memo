@@ -13,7 +13,6 @@ All 3 classes can be used as decorators as shown in the examples.
 TODOs:
 
 - [X] Create decorators for memoization
-- [ ] Typing
 - [ ] Documentation
 - [ ] Testing
 
