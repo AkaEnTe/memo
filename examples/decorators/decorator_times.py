@@ -31,7 +31,6 @@ def factorial_copy_memoizator(n):
 if __name__=="__main__":
     n = 30
     times = 10_000_000
-    #TODO: refactor printing the results
     print("Factorial time:        " + str(timeit.timeit(f"factorial({n})", setup="from __main__ import factorial", number=times))[0:6])
     print("Memoizated time:       " + str(timeit.timeit(f"factorial_memoizator({n})", setup="from __main__ import factorial_memoizator", number=times))[0:6])
     print("CustomMemoizated time: " + str(timeit.timeit(f"factorial_custom_memoizator({n})", setup="from __main__ import factorial_custom_memoizator", number=times))[0:6])
