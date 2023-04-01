@@ -1,8 +1,10 @@
+### Memo
+
 A simple, lightweight memoization implementation.
 
 This module is made for educational purpouses.
 
-Implements:
+### Implements:
 
 - Memoizator
 - CustomMemoizator
@@ -10,14 +12,19 @@ Implements:
 
 All 3 classes can be used as decorators as shown in the examples.
 
-TODOs:
+### TODOs:
 
 - [X] Create decorators for memoization
 - [X] Documentation
-- [ ] Testing
+- [X] Testing
 
+### WARNING:
 
-References:
+For recursive functions the implementation seems to fail cacheing the recursive calls and only the first call is cached.
+
+This implementation is still usefull for situations where a function is called multiple times with the same arguments.
+
+### References:
 - Memoization:
     - https://en.wikipedia.org/wiki/Memoization
 - Factorial:
